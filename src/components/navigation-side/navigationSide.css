@@ -1,0 +1,38 @@
+.nav-side {
+  grid-area: side;
+  height: 93vh;
+  width: 25vw;
+  padding: 1rem;
+  border-right: 3px solid var(--COLOR-TEXT-ONE);
+}
+
+.nav-side .button {
+  width: 100%;
+  border: none;
+  justify-content: flex-start;
+  padding: 0.5rem 0rem;
+}
+
+.nav-side .button:hover,
+.nav-side-sub-category:hover {
+  background-color: var(--COLOR-SECONDARY-THREE);
+}
+
+.nav-side-category-active > svg {
+  transform: rotate(270deg);
+}
+
+.nav-side-sub-category {
+  color: var(--COLOR-TEXT-ONE);
+  display: block;
+  width: 100%;
+  padding: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.nav-side-sub-category-active {
+  color: var(--COLOR-PRIMARY);
+  padding-left: 0.5rem;
+  border-left: 3px solid var(--COLOR-PRIMARY);
+}

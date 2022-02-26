@@ -1,0 +1,104 @@
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+/* ---TYPOGRAPHY--- */
+.font-m {
+  font-size: 1rem;
+}
+
+.font-ml {
+  font-size: 1.25rem;
+}
+
+.font-l {
+  font-size: 1.5rem;
+}
+
+.font-xl {
+  font-size: 2rem;
+}
+
+.font-xxl {
+  font-size: 2.5rem;
+}
+
+/* boldness */
+.font-sbd {
+  font-weight: 600;
+}
+
+/* ---SPACING MARGIN--- */
+.spc-vt-s {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.spc-vt-m {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.spc-vt-l {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.spc-hz-s {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.spc-hz-m {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.spc-l-s {
+  margin-left: 0.5rem;
+}
+
+/* ---SPACING PADDING--- */
+.pad-m {
+  padding: 1rem;
+}
+
+/* ---APP SPECIFIC--- */
+.page {
+  padding: 1rem 1.5rem;
+  overflow-y: scroll;
+  grid-area: main;
+}
+
+.component__heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.component__subheading {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.component__container {
+  height: 300px;
+  background-color: var(--COLOR-SECONDARY-LIGHT);
+  border: 2px solid var(--COLOR-SECONDARY);
+  border-radius: 0.5rem;
+}

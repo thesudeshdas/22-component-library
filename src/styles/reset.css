@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --COLOR-PRIMARY: #4338ca;
+  --COLOR-PRIMARY-LIGHT: #6366f1;
+  --COLOR-HOVER-PRIMARY: #2920bf;
+
+  --COLOR-BACKGROUND: #f9fafb;
+
+  --COLOR-SECONDARY: #9ca3af;
+  --COLOR-SECONDARY-LIGHT: #f3f4f6;
+
+  --COLOR-SECONDARY-ONE: #e5e7eb;
+  --COLOR-SECONDARY-THREE: #c7d2fe;
+
+  --COLOR-BACKGROUND: #f9fafb;
+
+  --COLOR-TEXT-ONE: #1f2937;
+  --COLOR-TEXT-TWO: #ffffff;
+}
+
+html,
+body {
+  background-color: var(--COLOR-BACKGROUND);
+  font-family: 'Inter', sans-serif;
+  color: var(--COLOR-TEXT-ONE);
+}
+
+/* ---ELEMENTS--- */
+a {
+  text-decoration: none;
+  color: var(--COLOR-PRIMARY);
+}
+
+p {
+  line-height: 150%;
+}
+
+pre {
+  display: inline;
+  color: var(--COLOR-TEXT-TWO);
+  padding: 0 0.25rem;
+  border-radius: 0.1rem;
+  background-color: var(--COLOR-PRIMARY-LIGHT);
+}
+
+ul {
+  list-style: none;
+}
+
+/* ---CLASSES--- */
+.button {
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border: 2px solid var(--COLOR-TEXT-ONE);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: transparent;
+}
