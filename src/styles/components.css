@@ -1,2 +1,12 @@
 @import url('./components/alert.css');
 @import url('./components/button.css');
+
+/* ---ALERT PAGE--- */
+.component__container--alert {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.component__container--alert .alert {
+  margin: 0.25rem 0;
+}

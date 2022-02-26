@@ -23,6 +23,11 @@
 
   --COLOR-TEXT-ONE: #1f2937;
   --COLOR-TEXT-TWO: #ffffff;
+
+  /* ---USE SPECIFIC--- */
+  --COLOR-DANGER: #ef4444;
+  --COLOR-WARNING: #fcd34d;
+  --COLOR-SUCCESS: #16a34a;
 }
 
 html,
@@ -45,7 +50,7 @@ p {
 pre {
   display: inline;
   color: var(--COLOR-TEXT-TWO);
-  padding: 0 0.25rem;
+  padding: 0.1rem 0.25rem;
   border-radius: 0.1rem;
   background-color: var(--COLOR-PRIMARY-LIGHT);
 }

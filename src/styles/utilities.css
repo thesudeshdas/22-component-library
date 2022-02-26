@@ -99,10 +99,10 @@
 .component__subheading {
   font-weight: 400;
   font-size: 1.25rem;
+  margin: 1rem 0 2rem;
 }
 
 .component__container {
-  height: 300px;
   background-color: var(--COLOR-SECONDARY-LIGHT);
   border: 2px solid var(--COLOR-SECONDARY);
   border-radius: 0.5rem;
