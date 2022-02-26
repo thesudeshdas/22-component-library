@@ -6,7 +6,6 @@ import { Alert, Components, Docs, Installation } from './pages';
 function App() {
   return (
     <div className='App'>
-      Just checking netlify
       <Routes>
         <Route path='/docs' element={<Docs />}>
           <Route path='installation' element={<Installation />} />
