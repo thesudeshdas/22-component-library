@@ -1,0 +1,54 @@
+/* ---PRIMARY-BUTTON--- */
+.button {
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border: 2px solid var(--COLOR-TEXT-ONE);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button-primary {
+  background-color: var(--COLOR-PRIMARY);
+  border-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-TEXT-TWO);
+  transition: 0.3s;
+}
+
+.button-primary:hover {
+  background-color: var(--COLOR-HOVER-PRIMARY);
+  border-color: var(--COLOR-HOVER-PRIMARY);
+}
+
+/* ---LINK-BUTTON--- */
+.button-link a {
+  color: var(--COLOR-TEXT-TWO);
+}
+
+/* ---ICON-BUTTON--- */
+.button-icon {
+  border: none;
+  padding: 0;
+}
+
+.button-icon:hover {
+  color: var(--COLOR-HOVER-PRIMARY);
+}
+
+/* ---FLOATING-ACTION-BUTTON */
+.button-floating-action {
+  border: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-TEXT-TWO);
+  padding: 0;
+}
+
+.button-floating-action:hover {
+  background-color: var(--COLOR-HOVER-PRIMARY);
+  border-color: var(--COLOR-HOVER-PRIMARY);
+}

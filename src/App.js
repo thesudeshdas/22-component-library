@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import {Docs, Installation} from './pages';
+import { Alert, Components, Docs, Installation } from './pages';
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
       <Routes>
         <Route path='/docs' element={<Docs />}>
           <Route path='installation' element={<Installation />} />
+        </Route>
+
+        <Route path='/components' element={<Components />}>
+          <Route path='alert' element={<Alert />} />
         </Route>
       </Routes>
     </div>
