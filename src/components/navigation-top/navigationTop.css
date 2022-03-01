@@ -1,0 +1,24 @@
+.nav-top {
+  grid-area: top;
+  height: 7vh;
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-TEXT-TWO);
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.brand-dash {
+  color: inherit;
+  margin-right: auto;
+}
+
+.nav-logo {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.nav-top a {
+  color: inherit;
+  width: fit-content;
+}

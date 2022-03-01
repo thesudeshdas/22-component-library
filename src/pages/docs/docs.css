@@ -1,0 +1,13 @@
+.page-docs {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'top top top top top top top top top top top top'
+    'side side main main main main main main main main main main';
+}
+
+.container-main {
+  grid-area: main;
+  width: 75vw;
+  padding: 1rem;
+}
