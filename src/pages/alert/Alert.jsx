@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import { IcRoundClose } from '../../assets/icons';
 
 export default function Alert() {
+  useEffect(() => {
+    document.title = 'Dash UI | Alert';
+  }, []);
+
   return (
     <main className='page'>
       <h1 className='component__heading'>Alert</h1>

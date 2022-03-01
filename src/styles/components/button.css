@@ -33,9 +33,10 @@
   padding: 0;
 }
 
-.button-icon:hover {
+/* ?Can Remove this? - Let's wait till button components made
+ .button-icon:hover {
   color: var(--COLOR-HOVER-PRIMARY);
-}
+} */
 
 /* ---FLOATING-ACTION-BUTTON */
 .button-floating-action {
