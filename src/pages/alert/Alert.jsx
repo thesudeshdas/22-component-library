@@ -21,7 +21,7 @@ export default function Alert() {
         <pre>alert-danger</pre> will give the danger alert
       </p>
 
-      <div className='component__container component__container--alert spc-vt-l pad-m'>
+      <section className='component__container component__container--alert spc-vt-l pad-m'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
         </div>
@@ -34,7 +34,7 @@ export default function Alert() {
         <div className='alert alert--danger flex-horizontal flex-align-center'>
           <strong>Danger!</strong> This is a danger alert. Check it out!
         </div>
-      </div>
+      </section>
 
       <iframe
         src='https://codesandbox.io/embed/alert-03d4s?codemirror=1&fontsize=14&hidenavigation=1&moduleview=1&theme=dark&view=editor&hidedevtools=0'
@@ -57,7 +57,7 @@ export default function Alert() {
         <pre>alert-outline--danger</pre> will give the danger outline alert
       </p>
 
-      <div className='component__container component__container--alert spc-vt-l pad-m'>
+      <section className='component__container component__container--alert spc-vt-l pad-m'>
         <div className='alert alert-outline--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
         </div>
@@ -70,7 +70,7 @@ export default function Alert() {
         <div className='alert alert-outline--danger flex-horizontal flex-align-center'>
           <strong>Danger!</strong> This is a danger alert. Check it out!
         </div>
-      </div>
+      </section>
 
       <iframe
         src='https://codesandbox.io/embed/outline-alert-quftmp?codemirror=1&fontsize=14&hidenavigation=1&moduleview=1&theme=dark&view=editor&hidedevtools=0'
@@ -93,7 +93,7 @@ export default function Alert() {
         which can be found in the code snippet below.
       </p>
 
-      <div className='component__container component__container--alert spc-vt-l pad-m'>
+      <section className='component__container component__container--alert spc-vt-l pad-m'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
           <button className='button button-icon alert-close flex-center'>
@@ -118,7 +118,7 @@ export default function Alert() {
             <IcRoundClose className='font-l' />
           </button>
         </div>
-      </div>
+      </section>
 
       <iframe
         src='https://codesandbox.io/embed/alert-with-close-button-uuzq76?codemirror=1&fontsize=14&hidenavigation=1&moduleview=1&theme=dark&view=editor&hidedevtools=0'
