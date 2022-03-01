@@ -1,0 +1,8 @@
+.page-components {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'top top top top top top top top top top top top'
+    'side side main main main main main main main main main main';
+  overflow: hidden;
+}

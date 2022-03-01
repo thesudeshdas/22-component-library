@@ -1,5 +1,6 @@
 @import url('./styles/reset.css');
 @import url('./styles/utilities.css');
+@import url('./styles/components.css');
 
 .button-primary {
   background-color: var(--COLOR-PRIMARY);
