@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { Alert, Components, Docs, Installation } from './pages';
+import { Alert, Button, Components, Docs, Installation } from './pages';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
 
         <Route path='/components' element={<Components />}>
           <Route path='alert' element={<Alert />} />
+          <Route path='button' element={<Button />} />
         </Route>
       </Routes>
     </div>
