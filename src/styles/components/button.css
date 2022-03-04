@@ -1,0 +1,151 @@
+/* ---BASIC BUTTON--- */
+.button {
+  border: 2px solid var(--COLOR-TEXT-ONE);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.button:hover {
+  background-color: var(--COLOR-SECONDARY-ONE-LIGHT);
+}
+
+.button-primary {
+  background-color: var(--COLOR-PRIMARY);
+  border-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-TEXT-TWO);
+}
+
+.button-primary:hover {
+  background-color: var(--COLOR-HOVER-PRIMARY);
+  border-color: var(--COLOR-HOVER-PRIMARY);
+}
+
+.button-secondary {
+  background-color: var(--COLOR-SECONDARY-TWO);
+  border-color: var(--COLOR-SECONDARY-TWO-DARK);
+}
+
+.button-secondary:hover {
+  background-color: var(--COLOR-SECONDARY-TWO-DARK);
+}
+
+.button-danger {
+  background-color: var(--COLOR-DANGER);
+  border-color: var(--COLOR-DANGER);
+  color: var(--COLOR-TEXT-TWO);
+}
+
+.button-danger:hover {
+  background-color: var(--COLOR-DANGER-DARK);
+  border-color: var(--COLOR-DANGER-DARK);
+}
+
+.button-success {
+  background-color: var(--COLOR-SUCCESS);
+  border-color: var(--COLOR-SUCCESS);
+  color: var(--COLOR-TEXT-TWO);
+}
+
+.button-success:hover {
+  background-color: var(--COLOR-SUCCESS-DARK);
+  border-color: var(--COLOR-SUCCESS-DARK);
+}
+
+.button-warning {
+  background-color: var(--COLOR-WARNING);
+  border-color: var(--COLOR-WARNING);
+}
+
+.button-warning:hover {
+  background-color: var(--COLOR-WARNING-DARK);
+  border-color: var(--COLOR-WARNING-DARK);
+}
+
+/* ---OUTLINE BUTTON--- */
+.button-outline-primary {
+  border-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-PRIMARY);
+}
+
+.button-outline-primary:hover {
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-TEXT-TWO);
+}
+
+.button-outline-secondary {
+  border-color: var(--COLOR-SECONDARY-TWO-DARK);
+  color: var(--COLOR-PRIMARY);
+}
+
+.button-outline-secondary:hover {
+  background-color: var(--COLOR-SECONDARY-TWO-DARK);
+  color: var(--COLOR-TEXT-ONE);
+}
+
+.button-outline-success {
+  border-color: var(--COLOR-SUCCESS);
+  color: var(--COLOR-SUCCESS);
+}
+
+.button-outline-success:hover {
+  background-color: var(--COLOR-SUCCESS);
+  color: var(--COLOR-TEXT-TWO);
+}
+
+.button-outline-warning {
+  border-color: var(--COLOR-WARNING);
+  color: var(--COLOR-WARNING-TEXT);
+}
+
+.button-outline-warning:hover {
+  background-color: var(--COLOR-WARNING);
+  color: var(--COLOR-TEXT-ONE);
+}
+
+.button-outline-danger {
+  border-color: var(--COLOR-DANGER);
+  color: var(--COLOR-DANGER);
+}
+
+.button-outline-danger:hover {
+  background-color: var(--COLOR-DANGER);
+  color: var(--COLOR-TEXT-TWO);
+}
+
+/* ---ICON-BUTTON--- */
+.button-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.button-icon:hover {
+  color: var(--COLOR-PRIMARY);
+}
+
+/* ---LINK BUTTON--- */
+.button-link {
+  color: var(--COLOR-PRIMARY);
+  padding: 0;
+}
+
+.button-link:hover {
+  text-decoration: underline;
+}
+
+/* ---FLOATING-ACTION-BUTTON */
+.button-floating-action {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color: var(--COLOR-PRIMARY);
+  border: none;
+  color: var(--COLOR-TEXT-TWO);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-floating-action:hover {
+  background-color: var(--COLOR-HOVER-PRIMARY);
+}

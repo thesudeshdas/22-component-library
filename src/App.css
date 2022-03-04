@@ -1,14 +1,3 @@
 @import url('./styles/reset.css');
 @import url('./styles/utilities.css');
 @import url('./styles/components.css');
-
-.button-primary {
-  background-color: var(--COLOR-PRIMARY);
-  color: var(--COLOR-TEXT-TWO);
-  border-color: var(--COLOR-PRIMARY);
-}
-
-.button-secondary {
-  background-color: var(--COLOR-SECONDARY-ONE);
-  border-color: var(--COLOR-TEXT-ONE);
-}

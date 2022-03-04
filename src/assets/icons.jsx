@@ -39,6 +39,17 @@ export function IcRoundClose(props) {
   );
 }
 
+export function IcRoundDelete(props) {
+  return (
+    <svg width='1em' height='1em' viewBox='0 0 24 24' {...props}>
+      <path
+        fill='currentColor'
+        d='M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v10zM18 4h-2.5l-.71-.71c-.18-.18-.44-.29-.7-.29H9.91c-.26 0-.52.11-.7.29L8.5 4H6c-.55 0-1 .45-1 1s.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1z'
+      ></path>
+    </svg>
+  );
+}
+
 export function IcRoundKeyboardArrowDown(props) {
   return (
     <svg width='1em' height='1em' viewBox='0 0 24 24' {...props}>
@@ -60,6 +71,17 @@ export function IcRoundNightsStay(props) {
       <path
         d='M7 16h-.18C6.4 14.84 5.3 14 4 14c-1.66 0-3 1.34-3 3s1.34 3 3 3h3c1.1 0 2-.9 2-2s-.9-2-2-2z'
         fill='currentColor'
+      ></path>
+    </svg>
+  );
+}
+
+export function IcRoundShoppingCart(props) {
+  return (
+    <svg width='1em' height='1em' viewBox='0 0 24 24' {...props}>
+      <path
+        fill='currentColor'
+        d='M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zM1 3c0 .55.45 1 1 1h1l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h11c.55 0 1-.45 1-1s-.45-1-1-1H7l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0 0 20.01 4H5.21l-.67-1.43a.993.993 0 0 0-.9-.57H2c-.55 0-1 .45-1 1zm16 15c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2z'
       ></path>
     </svg>
   );

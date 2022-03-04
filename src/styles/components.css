@@ -10,3 +10,18 @@
 .component__container--alert .alert {
   margin: 0.25rem 0;
 }
+
+/* ---BUTTON PAGE--- */
+.component__container--button {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.component__container--button button {
+  margin: 0.5rem;
+}
+
+.component__container--button .button-link {
+  margin: 0;
+}

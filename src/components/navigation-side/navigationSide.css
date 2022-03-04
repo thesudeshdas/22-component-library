@@ -15,7 +15,7 @@
 
 .nav-side .button:hover,
 .nav-side-sub-category:hover {
-  background-color: var(--COLOR-SECONDARY-THREE);
+  background-color: var(--COLOR-SECONDARY-TWO);
 }
 
 .nav-side-category-active > svg {

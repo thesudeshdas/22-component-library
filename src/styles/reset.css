@@ -9,30 +9,33 @@
 :root {
   --COLOR-PRIMARY: #4338ca;
   --COLOR-PRIMARY-LIGHT: #6366f1;
-  --COLOR-HOVER-PRIMARY: #2920bf;
+  --COLOR-HOVER-PRIMARY: #4f46e5;
 
-  --COLOR-BACKGROUND: #f9fafb;
+  --COLOR-BACKGROUND-ONE: #f9fafb;
+  --COLOR-BACKGROUND-TWO: #f3f4f6;
 
-  --COLOR-SECONDARY: #9ca3af;
-  --COLOR-SECONDARY-LIGHT: #f3f4f6;
+  --COLOR-SECONDARY-ONE: #9ca3af;
+  --COLOR-SECONDARY-ONE-LIGHT: #e5e7eb;
 
-  --COLOR-SECONDARY-ONE: #e5e7eb;
-  --COLOR-SECONDARY-THREE: #c7d2fe;
-
-  --COLOR-BACKGROUND: #f9fafb;
+  --COLOR-SECONDARY-TWO: #c7d2fe;
+  --COLOR-SECONDARY-TWO-DARK: #a5b4fc;
 
   --COLOR-TEXT-ONE: #1f2937;
   --COLOR-TEXT-TWO: #ffffff;
 
   /* ---USE SPECIFIC--- */
   --COLOR-DANGER: #ef4444;
+  --COLOR-DANGER-DARK: #dc2626;
   --COLOR-WARNING: #fcd34d;
+  --COLOR-WARNING-DARK: #fbbf24;
+  --COLOR-WARNING-TEXT: #b45309;
   --COLOR-SUCCESS: #16a34a;
+  --COLOR-SUCCESS-DARK: #15803d;
 }
 
 html,
 body {
-  background-color: var(--COLOR-BACKGROUND);
+  background-color: var(--COLOR-BACKGROUND-ONE);
   font-family: 'Inter', sans-serif;
   color: var(--COLOR-TEXT-ONE);
 }
@@ -43,6 +46,16 @@ a {
   color: var(--COLOR-PRIMARY);
 }
 
+button {
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  width: fit-content;
+}
+
 p {
   line-height: 150%;
 }
@@ -50,8 +63,8 @@ p {
 pre {
   display: inline;
   color: var(--COLOR-TEXT-TWO);
-  padding: 0.1rem 0.25rem;
-  border-radius: 0.1rem;
+  padding: 2px 4px;
+  border-radius: 4px;
   background-color: var(--COLOR-PRIMARY-LIGHT);
 }
 

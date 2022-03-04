@@ -103,8 +103,8 @@
 }
 
 .component__container {
-  background-color: var(--COLOR-SECONDARY-LIGHT);
-  border: 2px solid var(--COLOR-SECONDARY);
+  background-color: var(--COLOR-BACKGROUND-TWO);
+  border: 2px solid var(--COLOR-SECONDARY-ONE);
   border-radius: 0.5rem;
 }
 
