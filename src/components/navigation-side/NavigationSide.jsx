@@ -20,7 +20,7 @@ export default function NavigationSide() {
               onClick={() => setSelectedCategory(category.category)}
               className='button nav-side-category-active flex-horizontal flex-align-center font-ml'
             >
-              <IcRoundKeyboardArrowDown className='font-l' />
+              <IcRoundKeyboardArrowDown className='font-lg' />
               {category.category}
             </button>
 
@@ -28,7 +28,7 @@ export default function NavigationSide() {
               selectedSubCategory === subCategory.subCategory ? (
                 <li
                   key={subCategory.id}
-                  className='font-m font-sbd spc-vt-s spc-l-s'
+                  className='font-md font-semi-bold spc-vt-sm spc-l-sm'
                 >
                   <a
                     href={subCategory.link}
@@ -40,7 +40,7 @@ export default function NavigationSide() {
               ) : (
                 <li
                   key={subCategory.id}
-                  className='font-m font-sbd spc-vt-s spc-l-s'
+                  className='font-md font-semi-bold spc-vt-sm spc-l-sm'
                 >
                   <a href={subCategory.link} className='nav-side-sub-category'>
                     {subCategory.subCategory}
@@ -55,7 +55,7 @@ export default function NavigationSide() {
               onClick={() => setSelectedCategory(category.category)}
               className='button flex-horizontal flex-align-center font-ml'
             >
-              <IcRoundKeyboardArrowDown className='font-l' />
+              <IcRoundKeyboardArrowDown className='font-lg' />
               {category.category}
             </button>
           </ul>

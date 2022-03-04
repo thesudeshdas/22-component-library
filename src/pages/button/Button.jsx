@@ -17,8 +17,8 @@ export default function Button() {
         Easily create nice looking buttons, which come in different styles.
       </h3>
 
-      <h2 className='font-sbd spc-vt-m'>Basic Button</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-semi-bold spc-vt-md'>Basic Button</h2>
+      <p className='spc-vt-md'>
         Contained buttons are high-emphasis, distinguished by their use of
         elevation and fill. They contain actions that are primary to your app. A
         basic button can made using the <pre>button</pre> class. To choose a
@@ -27,7 +27,7 @@ export default function Button() {
         the danger button
       </p>
 
-      <section className='component__container component__container--button spc-vt-l pad-m'>
+      <section className='component__container component__container--button spc-vt-lg padding-md'>
         <button className='button'>DEFAULT</button>
         <button className='button button-primary'>PRIMARY</button>
         <button className='button button-secondary'>SECONDARY</button>
@@ -36,8 +36,8 @@ export default function Button() {
         <button className='button button-danger'>DANGER</button>
       </section>
 
-      <h2 className='font-sbd spc-vt-m'>Outline Button</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-semi-bold spc-vt-md'>Outline Button</h2>
+      <p className='spc-vt-md'>
         Outlined buttons are medium-emphasis buttons. They contain actions that
         are important but aren't the primary action in an app. An outline button
         can made using the <pre>button-outline-[variant]</pre> class. For
@@ -45,7 +45,7 @@ export default function Button() {
         will give the danger outline button.
       </p>
 
-      <section className='component__container component__container--button spc-vt-l pad-m'>
+      <section className='component__container component__container--button spc-vt-lg padding-md'>
         <button className='button'>DEFAULT</button>
         <button className='button button-outline-primary'>PRIMARY</button>
         <button className='button button-outline-secondary'>SECONDARY</button>
@@ -54,8 +54,8 @@ export default function Button() {
         <button className='button button-outline-danger'>DANGER</button>
       </section>
 
-      <h2 className='font-sbd spc-vt-m'>Icon Button</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-semi-bold spc-vt-md'>Icon Button</h2>
+      <p className='spc-vt-md'>
         Icon buttons are commonly found in app bars and toolbars. Icons are also
         appropriate for toggle buttons that allow a single choice to be selected
         or deselected, such as adding or removing a star to an item. An icon
@@ -64,7 +64,7 @@ export default function Button() {
         <pre>font</pre> utility class for sizing the icon button.
       </p>
 
-      <section className='component__container component__container--button spc-vt-l pad-m'>
+      <section className='component__container component__container--button spc-vt-lg padding-md'>
         <button className='button-icon font-xl'>
           <IcRoundDelete />
         </button>
@@ -76,17 +76,17 @@ export default function Button() {
         </button>
       </section>
 
-      <h2 className='font-sbd spc-vt-m'>Link Button</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-semi-bold spc-vt-md'>Link Button</h2>
+      <p className='spc-vt-md'>
         Link buttons are used inside text to redicer the user to some other
         place. Use the <pre>button-link</pre> class to create a link button.
       </p>
 
-      <section className='component__container component__container--button spc-vt-l pad-m'>
+      <section className='component__container component__container--button spc-vt-lg padding-md'>
         <p>
           Dash UI makes building your apps simpler. If you like my work, feel
           free to reach out to me on{' '}
-          <button className='button-link font-m'>
+          <button className='button-link font-md'>
             <a
               href='https://twitter.com/thesudeshdas'
               target='_blank'
@@ -99,15 +99,15 @@ export default function Button() {
         </p>
       </section>
 
-      <h2 className='font-sbd spc-vt-m'>Floating Action Button</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-semi-bold spc-vt-md'>Floating Action Button</h2>
+      <p className='spc-vt-md'>
         A floating action button appears in front of all screen content,
         typically as a circular shape with an icon in its center. Use the{' '}
         <pre>button-link</pre> class to create a link button.
       </p>
 
-      <section className='component__container component__container--button spc-vt-l pad-m'>
-        <button className='button button-floating-action font-l'>
+      <section className='component__container component__container--button spc-vt-lg padding-md'>
+        <button className='button button-floating-action font-lg'>
           <IcRoundShoppingCart />
         </button>
       </section>
