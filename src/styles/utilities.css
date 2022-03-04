@@ -19,7 +19,7 @@
 }
 
 /* ---TYPOGRAPHY--- */
-.font-md {
+.font-m {
   font-size: 1rem;
 }
 
@@ -27,7 +27,7 @@
   font-size: 1.25rem;
 }
 
-.font-lg {
+.font-l {
   font-size: 1.5rem;
 }
 
@@ -39,38 +39,43 @@
   font-size: 2.5rem;
 }
 
-/* ---BOLDNESS--- */
-.font-semi-bold {
+/* boldness */
+.font-sbd {
   font-weight: 600;
 }
 
 /* ---SPACING MARGIN--- */
-.spc-vt-sm {
+.spc-vt-s {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.spc-vt-md {
+.spc-vt-m {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.spc-vt-lg {
+.spc-vt-l {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
 
-.spc-hz-sm {
+.spc-hz-s {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.spc-l-sm {
+.spc-hz-m {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.spc-l-s {
   margin-left: 0.5rem;
 }
 
 /* ---SPACING PADDING--- */
-.padding-md {
+.pad-m {
   padding: 1rem;
 }
 
