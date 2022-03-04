@@ -13,15 +13,15 @@ export default function Alert() {
         Display success, warning and error messages.
       </h3>
 
-      <h2 className='font-sbd spc-vt-m'>Basic Alert</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-weight-600 margin-vertical-md'>Basic Alert</h2>
+      <p className='margin-vertical-md'>
         A basic alert can made using the <pre>alert</pre> class for the default.
         To choose a color the class can be followed by{' '}
         <pre>alert-[variant]</pre>. For example <pre>alert</pre> followed by{' '}
         <pre>alert-danger</pre> will give the danger alert
       </p>
 
-      <section className='component__container component__container--alert spc-vt-l pad-m'>
+      <section className='component__container component__container--alert margin-vertical-lg padding-md'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
         </div>
@@ -50,14 +50,14 @@ export default function Alert() {
         sandbox='allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts'
       />
 
-      <h2 className='font-sbd spc-vt-m'>Outline Alert</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-weight-600 margin-vertical-md'>Outline Alert</h2>
+      <p className='margin-vertical-md'>
         An outline alert can made using the <pre>alert-outline--[variant]</pre>{' '}
         class for the outline. For example <pre>alert</pre> followed by{' '}
         <pre>alert-outline--danger</pre> will give the danger outline alert
       </p>
 
-      <section className='component__container component__container--alert spc-vt-l pad-m'>
+      <section className='component__container component__container--alert margin-vertical-lg padding-md'>
         <div className='alert alert-outline--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
         </div>
@@ -86,36 +86,38 @@ export default function Alert() {
         sandbox='allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts'
       />
 
-      <h2 className='font-sbd spc-vt-m'>Alert with Close Button</h2>
-      <p className='spc-vt-m'>
+      <h2 className='font-weight-600 margin-vertical-md'>
+        Alert with Close Button
+      </h2>
+      <p className='margin-vertical-md'>
         A close button can be added to the basic alert to make the close button
         alert variant. Simply add the <pre>button</pre> tag with the classes
         which can be found in the code snippet below.
       </p>
 
-      <section className='component__container component__container--alert spc-vt-l pad-m'>
+      <section className='component__container component__container--alert margin-vertical-lg padding-md'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
           <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-l' />
+            <IcRoundClose className='font-size-lg' />
           </button>
         </div>
         <div className='alert alert--success flex-horizontal flex-align-center'>
           <strong>Success!</strong> This is a success alert. Check it out!
           <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-l' />
+            <IcRoundClose className='font-size-lg' />
           </button>
         </div>
         <div className='alert alert--warning flex-horizontal flex-align-center'>
           <strong>Warning!</strong> This is a warning alert. Check it out!
           <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-l' />
+            <IcRoundClose className='font-size-lg' />
           </button>
         </div>
         <div className='alert alert--danger flex-horizontal flex-align-center'>
           <strong>Danger!</strong> This is a danger alert. Check it out!
           <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-l' />
+            <IcRoundClose className='font-size-lg' />
           </button>
         </div>
       </section>
