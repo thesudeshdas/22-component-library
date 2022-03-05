@@ -41,7 +41,7 @@ export default function Alert() {
         style={{
           width: '100%',
           height: '500px',
-          border: '2px solid var(--COLOR-TEXT-ONE)',
+          border: '2px solid var(--COLOR_TEXT_ONE)',
           borderRadius: '8px',
           overflow: 'hidden',
         }}
@@ -77,7 +77,7 @@ export default function Alert() {
         style={{
           width: '100%',
           height: '500px',
-          border: '2px solid var(--COLOR-TEXT-ONE)',
+          border: '2px solid var(--COLOR_TEXT_ONE)',
           borderRadius: '8px',
           overflow: 'hidden',
         }}
@@ -127,7 +127,7 @@ export default function Alert() {
         style={{
           width: '100%',
           height: '500px',
-          border: '2px solid var(--COLOR-TEXT-ONE)',
+          border: '2px solid var(--COLOR_TEXT_ONE)',
           borderRadius: '8px',
           overflow: 'hidden',
         }}

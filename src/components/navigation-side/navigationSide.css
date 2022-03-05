@@ -3,7 +3,7 @@
   height: 93vh;
   width: 25vw;
   padding: 1rem;
-  border-right: 3px solid var(--COLOR-TEXT-ONE);
+  border-right: 3px solid var(--COLOR_TEXT_ONE);
 }
 
 .nav-side .button {
@@ -23,7 +23,7 @@
 }
 
 .nav-side-sub-category {
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR_TEXT_ONE);
   display: block;
   width: 100%;
   padding: 0.25rem;

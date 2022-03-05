@@ -1,6 +1,6 @@
 /* ---BASIC BUTTON--- */
 .button {
-  border: 2px solid var(--COLOR-TEXT-ONE);
+  border: 2px solid var(--COLOR_TEXT_ONE);
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
 }
@@ -12,7 +12,7 @@
 .button-primary {
   background-color: var(--COLOR_BRAND_ALPHA);
   border-color: var(--COLOR_BRAND_ALPHA);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .button-primary:hover {
@@ -32,23 +32,23 @@
 .button-danger {
   background-color: var(--COLOR_SEMANTIC_ERROR);
   border-color: var(--COLOR_SEMANTIC_ERROR);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .button-danger:hover {
-  background-color: var(--COLOR_SEMANTIC_ERROR-DARK);
-  border-color: var(--COLOR_SEMANTIC_ERROR-DARK);
+  background-color: var(--COLOR_SEMANTIC_ERROR_DARK);
+  border-color: var(--COLOR_SEMANTIC_ERROR_DARK);
 }
 
 .button-success {
   background-color: var(--COLOR_SEMANTIC_SUCCESS);
   border-color: var(--COLOR_SEMANTIC_SUCCESS);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .button-success:hover {
-  background-color: var(--COLOR_SEMANTIC_SUCCESS-DARK);
-  border-color: var(--COLOR_SEMANTIC_SUCCESS-DARK);
+  background-color: var(--COLOR_SEMANTIC_SUCCESS_DARK);
+  border-color: var(--COLOR_SEMANTIC_SUCCESS_DARK);
 }
 
 .button-warning {
@@ -57,8 +57,8 @@
 }
 
 .button-warning:hover {
-  background-color: var(--COLOR_SEMANTIC_WARNING-DARK);
-  border-color: var(--COLOR_SEMANTIC_WARNING-DARK);
+  background-color: var(--COLOR_SEMANTIC_WARNING_DARK);
+  border-color: var(--COLOR_SEMANTIC_WARNING_DARK);
 }
 
 /* ---OUTLINE BUTTON--- */
@@ -69,7 +69,7 @@
 
 .button-outline-primary:hover {
   background-color: var(--COLOR_BRAND_ALPHA);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .button-outline-secondary {
@@ -79,7 +79,7 @@
 
 .button-outline-secondary:hover {
   background-color: var(--COLOR_NEUTRAL_BETA_DARK);
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR_TEXT_ONE);
 }
 
 .button-outline-success {
@@ -89,17 +89,17 @@
 
 .button-outline-success:hover {
   background-color: var(--COLOR_SEMANTIC_SUCCESS);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .button-outline-warning {
   border-color: var(--COLOR_SEMANTIC_WARNING);
-  color: var(--COLOR_SEMANTIC_WARNING-TEXT);
+  color: var(--COLOR_SEMANTIC_WARNING_TEXT);
 }
 
 .button-outline-warning:hover {
   background-color: var(--COLOR_SEMANTIC_WARNING);
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR_TEXT_ONE);
 }
 
 .button-outline-danger {
@@ -109,7 +109,7 @@
 
 .button-outline-danger:hover {
   background-color: var(--COLOR_SEMANTIC_ERROR);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 /* ---ICON-BUTTON--- */
@@ -139,7 +139,7 @@
   border-radius: 50%;
   background-color: var(--COLOR_BRAND_ALPHA);
   border: none;
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
   padding: 0;
   display: flex;
   justify-content: center;

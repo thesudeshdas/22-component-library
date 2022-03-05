@@ -10,22 +10,22 @@
 /* ---COLOR VARIANTS--- */
 .alert--primary {
   background-color: var(--COLOR_BRAND_ALPHA);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .alert--success {
   background-color: var(--COLOR_SEMANTIC_SUCCESS);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .alert--warning {
   background-color: var(--COLOR_SEMANTIC_WARNING);
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR_TEXT_ONE);
 }
 
 .alert--danger {
   background-color: var(--COLOR_SEMANTIC_ERROR);
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 /* ---OUTLINE VARIANTS--- */

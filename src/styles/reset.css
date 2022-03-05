@@ -23,26 +23,26 @@
   --COLOR_NEUTRAL_BETA_DARK: #a5b4fc;
 
   /* ---TEXT COLORS--- */
-  --COLOR-TEXT-ONE: #1f2937;
-  --COLOR-TEXT-TWO: #ffffff;
+  --COLOR_TEXT_ONE: #1f2937;
+  --COLOR_TEXT_TWO: #ffffff;
 
   /* ---SEMANTIC COLORS--- */
   --COLOR_SEMANTIC_ERROR: #ef4444;
-  --COLOR_SEMANTIC_ERROR-DARK: #dc2626;
+  --COLOR_SEMANTIC_ERROR_DARK: #dc2626;
 
   --COLOR_SEMANTIC_WARNING: #fcd34d;
-  --COLOR_SEMANTIC_WARNING-DARK: #fbbf24;
-  --COLOR_SEMANTIC_WARNING-TEXT: #b45309;
+  --COLOR_SEMANTIC_WARNING_DARK: #fbbf24;
+  --COLOR_SEMANTIC_WARNING_TEXT: #b45309;
 
   --COLOR_SEMANTIC_SUCCESS: #16a34a;
-  --COLOR_SEMANTIC_SUCCESS-DARK: #15803d;
+  --COLOR_SEMANTIC_SUCCESS_DARK: #15803d;
 }
 
 html,
 body {
   background-color: var(--COLOR_BACKGROUND_ALPHA);
   font-family: 'Inter', sans-serif;
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR_TEXT_ONE);
 }
 
 /* ---ELEMENTS--- */
@@ -59,6 +59,7 @@ button {
   font-weight: 600;
   background-color: transparent;
   width: fit-content;
+  color: var(--COLOR_TEXT_ONE);
 }
 
 p {
@@ -67,7 +68,7 @@ p {
 
 pre {
   display: inline;
-  color: var(--COLOR-TEXT-TWO);
+  color: var(--COLOR_TEXT_TWO);
   padding: 2px 4px;
   border-radius: 4px;
   background-color: var(--COLOR_BRAND_ALPHA_LIGHT);
