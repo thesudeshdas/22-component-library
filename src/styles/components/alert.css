@@ -9,40 +9,40 @@
 
 /* ---COLOR VARIANTS--- */
 .alert--primary {
-  background-color: var(--COLOR-HOVER-PRIMARY);
-  color: var(--COLOR-TEXT-TWO);
+  background-color: var(--COLOR_BRAND_ALPHA);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .alert--success {
-  background-color: var(--COLOR-SUCCESS);
-  color: var(--COLOR-TEXT-ONE);
+  background-color: var(--COLOR_SEMANTIC_SUCCESS);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .alert--warning {
-  background-color: var(--COLOR-WARNING);
-  color: var(--COLOR-TEXT-ONE);
+  background-color: var(--COLOR_SEMANTIC_WARNING);
+  color: var(--COLOR_TEXT_ONE);
 }
 
 .alert--danger {
-  background-color: var(--COLOR-DANGER);
-  color: var(--COLOR-TEXT-TWO);
+  background-color: var(--COLOR_SEMANTIC_ERROR);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 /* ---OUTLINE VARIANTS--- */
 .alert-outline--primary {
-  border: 2px solid var(--COLOR-HOVER-PRIMARY);
+  border: 2px solid var(--COLOR_BRAND_ALPHA);
 }
 
 .alert-outline--success {
-  border: 2px solid var(--COLOR-SUCCESS);
+  border: 2px solid var(--COLOR_SEMANTIC_SUCCESS);
 }
 
 .alert-outline--warning {
-  border: 2px solid var(--COLOR-WARNING);
+  border: 2px solid var(--COLOR_SEMANTIC_WARNING);
 }
 
 .alert-outline--danger {
-  border: 2px solid var(--COLOR-DANGER);
+  border: 2px solid var(--COLOR_SEMANTIC_ERROR);
 }
 
 /* ---CLOSE VARIANT--- */

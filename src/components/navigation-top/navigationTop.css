@@ -1,8 +1,8 @@
 .nav-top {
   grid-area: top;
   height: 7vh;
-  background-color: var(--COLOR-PRIMARY);
-  color: var(--COLOR-TEXT-TWO);
+  background-color: var(--COLOR_BRAND_ALPHA);
+  color: var(--COLOR_TEXT_TWO);
   justify-content: flex-start;
   align-items: center;
   padding: 0 1rem;

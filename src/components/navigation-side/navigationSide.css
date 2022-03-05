@@ -3,7 +3,7 @@
   height: 93vh;
   width: 25vw;
   padding: 1rem;
-  border-right: 3px solid var(--COLOR-TEXT-ONE);
+  border-right: 3px solid var(--COLOR_TEXT_ONE);
 }
 
 .nav-side .button {
@@ -15,7 +15,7 @@
 
 .nav-side .button:hover,
 .nav-side-sub-category:hover {
-  background-color: var(--COLOR-SECONDARY-THREE);
+  background-color: var(--COLOR_NEUTRAL_BETA);
 }
 
 .nav-side-category-active > svg {
@@ -23,7 +23,7 @@
 }
 
 .nav-side-sub-category {
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR_TEXT_ONE);
   display: block;
   width: 100%;
   padding: 0.25rem;
@@ -32,7 +32,7 @@
 }
 
 .nav-side-sub-category-active {
-  color: var(--COLOR-PRIMARY);
+  color: var(--COLOR_BRAND_ALPHA);
   padding-left: 0.5rem;
-  border-left: 3px solid var(--COLOR-PRIMARY);
+  border-left: 3px solid var(--COLOR_BRAND_ALPHA);
 }

@@ -1,55 +1,151 @@
-/* ---PRIMARY-BUTTON--- */
+/* ---BASIC BUTTON--- */
 .button {
-  border: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  border: 2px solid var(--COLOR-TEXT-ONE);
+  border: 2px solid var(--COLOR_TEXT_ONE);
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
-  cursor: pointer;
-  background-color: transparent;
+}
+
+.button:hover {
+  background-color: var(--COLOR_NEUTRAL_ALPHA_DARK);
 }
 
 .button-primary {
-  background-color: var(--COLOR-PRIMARY);
-  border-color: var(--COLOR-PRIMARY);
-  color: var(--COLOR-TEXT-TWO);
-  transition: 0.3s;
+  background-color: var(--COLOR_BRAND_ALPHA);
+  border-color: var(--COLOR_BRAND_ALPHA);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 .button-primary:hover {
-  background-color: var(--COLOR-HOVER-PRIMARY);
-  border-color: var(--COLOR-HOVER-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA_DARK);
+  border-color: var(--COLOR_BRAND_ALPHA_DARK);
 }
 
-/* ---LINK-BUTTON--- */
-.button-link a {
-  color: var(--COLOR-TEXT-TWO);
+.button-secondary {
+  background-color: var(--COLOR_NEUTRAL_BETA);
+  border-color: var(--COLOR_NEUTRAL_BETA_DARK);
+}
+
+.button-secondary:hover {
+  background-color: var(--COLOR_NEUTRAL_BETA_DARK);
+}
+
+.button-danger {
+  background-color: var(--COLOR_SEMANTIC_ERROR);
+  border-color: var(--COLOR_SEMANTIC_ERROR);
+  color: var(--COLOR_TEXT_TWO);
+}
+
+.button-danger:hover {
+  background-color: var(--COLOR_SEMANTIC_ERROR_DARK);
+  border-color: var(--COLOR_SEMANTIC_ERROR_DARK);
+}
+
+.button-success {
+  background-color: var(--COLOR_SEMANTIC_SUCCESS);
+  border-color: var(--COLOR_SEMANTIC_SUCCESS);
+  color: var(--COLOR_TEXT_TWO);
+}
+
+.button-success:hover {
+  background-color: var(--COLOR_SEMANTIC_SUCCESS_DARK);
+  border-color: var(--COLOR_SEMANTIC_SUCCESS_DARK);
+}
+
+.button-warning {
+  background-color: var(--COLOR_SEMANTIC_WARNING);
+  border-color: var(--COLOR_SEMANTIC_WARNING);
+}
+
+.button-warning:hover {
+  background-color: var(--COLOR_SEMANTIC_WARNING_DARK);
+  border-color: var(--COLOR_SEMANTIC_WARNING_DARK);
+}
+
+/* ---OUTLINE BUTTON--- */
+.button-outline-primary {
+  border-color: var(--COLOR_BRAND_ALPHA);
+  color: var(--COLOR_BRAND_ALPHA);
+}
+
+.button-outline-primary:hover {
+  background-color: var(--COLOR_BRAND_ALPHA);
+  color: var(--COLOR_TEXT_TWO);
+}
+
+.button-outline-secondary {
+  border-color: var(--COLOR_NEUTRAL_BETA_DARK);
+  color: var(--COLOR_BRAND_ALPHA);
+}
+
+.button-outline-secondary:hover {
+  background-color: var(--COLOR_NEUTRAL_BETA_DARK);
+  color: var(--COLOR_TEXT_ONE);
+}
+
+.button-outline-success {
+  border-color: var(--COLOR_SEMANTIC_SUCCESS);
+  color: var(--COLOR_SEMANTIC_SUCCESS);
+}
+
+.button-outline-success:hover {
+  background-color: var(--COLOR_SEMANTIC_SUCCESS);
+  color: var(--COLOR_TEXT_TWO);
+}
+
+.button-outline-warning {
+  border-color: var(--COLOR_SEMANTIC_WARNING);
+  color: var(--COLOR_SEMANTIC_WARNING_TEXT);
+}
+
+.button-outline-warning:hover {
+  background-color: var(--COLOR_SEMANTIC_WARNING);
+  color: var(--COLOR_TEXT_ONE);
+}
+
+.button-outline-danger {
+  border-color: var(--COLOR_SEMANTIC_ERROR);
+  color: var(--COLOR_SEMANTIC_ERROR);
+}
+
+.button-outline-danger:hover {
+  background-color: var(--COLOR_SEMANTIC_ERROR);
+  color: var(--COLOR_TEXT_TWO);
 }
 
 /* ---ICON-BUTTON--- */
 .button-icon {
-  border: none;
+  width: 1em;
+  height: 1em;
+}
+
+.button-icon:hover {
+  color: var(--COLOR_BRAND_ALPHA);
+}
+
+/* ---LINK BUTTON--- */
+.button-link {
+  color: var(--COLOR_BRAND_ALPHA);
   padding: 0;
 }
 
-/* ?Can Remove this? - Let's wait till button components made
- .button-icon:hover {
-  color: var(--COLOR-HOVER-PRIMARY);
-} */
+.button-link:hover {
+  text-decoration: underline;
+}
 
 /* ---FLOATING-ACTION-BUTTON */
 .button-floating-action {
-  border: none;
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2em;
+  width: 2em;
   border-radius: 50%;
-  background-color: var(--COLOR-PRIMARY);
-  color: var(--COLOR-TEXT-TWO);
+  background-color: var(--COLOR_BRAND_ALPHA);
+  border: none;
+  color: var(--COLOR_TEXT_TWO);
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-floating-action:hover {
-  background-color: var(--COLOR-HOVER-PRIMARY);
-  border-color: var(--COLOR-HOVER-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA_DARK);
 }

@@ -19,77 +19,62 @@
 }
 
 /* ---TYPOGRAPHY--- */
-.font-m {
+.font-size-md {
   font-size: 1rem;
 }
 
-.font-ml {
+.font-size-ml {
   font-size: 1.25rem;
 }
 
-.font-l {
+.font-size-lg {
   font-size: 1.5rem;
 }
 
-.font-xl {
+.font-size-xl {
   font-size: 2rem;
 }
 
-.font-xxl {
+.font-size-xxl {
   font-size: 2.5rem;
 }
 
 /* boldness */
-.font-sbd {
+.font-weight-600 {
   font-weight: 600;
 }
 
 /* ---SPACING MARGIN--- */
-.spc-vt-s {
+.margin-vertical-sm {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.spc-vt-m {
+.margin-vertical-md {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.spc-vt-l {
+.margin-vertical-lg {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
 
-.spc-hz-s {
+.margin-horizontal-sm {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.spc-hz-m {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.spc-l-s {
+.margin-sm {
   margin-left: 0.5rem;
 }
 
 /* ---SPACING PADDING--- */
-.pad-m {
+.padding-md {
   padding: 1rem;
 }
 
 /* ---APP SPECIFIC--- */
-.button {
-  border: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  border: 2px solid var(--COLOR-TEXT-ONE);
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  background-color: transparent;
-}
 
 .component__heading {
   font-size: 2.5rem;
@@ -103,8 +88,8 @@
 }
 
 .component__container {
-  background-color: var(--COLOR-SECONDARY-LIGHT);
-  border: 2px solid var(--COLOR-SECONDARY);
+  background-color: var(--COLOR_NEUTRAL_ALPHA);
+  border: 2px solid var(--COLOR_NEUTRAL_ALPHA_DARK);
   border-radius: 0.5rem;
 }
 
