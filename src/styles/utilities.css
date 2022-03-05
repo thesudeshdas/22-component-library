@@ -46,8 +46,8 @@
 
 /* ---SPACING MARGIN--- */
 .margin-vertical-sm {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .margin-vertical-md {
@@ -61,12 +61,12 @@
 }
 
 .margin-horizontal-sm {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .margin-sm {
-  margin-left: 0.5rem;
+  margin-left: 8px;
 }
 
 /* ---SPACING PADDING--- */
@@ -90,7 +90,7 @@
 .component__container {
   background-color: var(--COLOR_NEUTRAL_ALPHA);
   border: 2px solid var(--COLOR_NEUTRAL_ALPHA_DARK);
-  border-radius: 0.5rem;
+  border-radius: 8px;
 }
 
 .page {

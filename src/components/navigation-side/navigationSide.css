@@ -10,7 +10,7 @@
   width: 100%;
   border: none;
   justify-content: flex-start;
-  padding: 0.5rem 0rem;
+  padding: 8px 0rem;
 }
 
 .nav-side .button:hover,
@@ -33,6 +33,6 @@
 
 .nav-side-sub-category-active {
   color: var(--COLOR_BRAND_ALPHA);
-  padding-left: 0.5rem;
+  padding-left: 8px;
   border-left: 3px solid var(--COLOR_BRAND_ALPHA);
 }

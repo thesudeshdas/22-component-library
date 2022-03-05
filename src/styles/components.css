@@ -19,7 +19,7 @@
 }
 
 .component__container--button button {
-  margin: 0.5rem;
+  margin: 8px;
 }
 
 .component__container--button .button-link {
