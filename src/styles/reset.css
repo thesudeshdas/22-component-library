@@ -7,35 +7,40 @@
 }
 
 :root {
-  --COLOR-PRIMARY: #4338ca;
-  --COLOR-PRIMARY-LIGHT: #6366f1;
-  --COLOR-HOVER-PRIMARY: #4f46e5;
+  /* ---BRAND COLORS--- */
+  --COLOR_BRAND_ALPHA: #4338ca;
+  --COLOR_BRAND_ALPHA_LIGHT: #6366f1;
+  --COLOR_BRAND_ALPHA_DARK: #3730a3;
 
-  --COLOR-BACKGROUND-ONE: #f9fafb;
-  --COLOR-BACKGROUND-TWO: #f3f4f6;
+  /* ---BACKGROUND COLORS--- */
+  --COLOR_BACKGROUND_ALPHA: #f9fafb;
 
-  --COLOR-SECONDARY-ONE: #9ca3af;
-  --COLOR-SECONDARY-ONE-LIGHT: #e5e7eb;
+  /* ---NEUTRAL COLORS--- */
+  --COLOR_NEUTRAL_ALPHA: #f3f4f6;
+  --COLOR_NEUTRAL_ALPHA_DARK: #d1d5db;
 
-  --COLOR-SECONDARY-TWO: #c7d2fe;
-  --COLOR-SECONDARY-TWO-DARK: #a5b4fc;
+  --COLOR_NEUTRAL_BETA: #c7d2fe;
+  --COLOR_NEUTRAL_BETA_DARK: #a5b4fc;
 
+  /* ---TEXT COLORS--- */
   --COLOR-TEXT-ONE: #1f2937;
   --COLOR-TEXT-TWO: #ffffff;
 
-  /* ---USE SPECIFIC--- */
-  --COLOR-DANGER: #ef4444;
-  --COLOR-DANGER-DARK: #dc2626;
-  --COLOR-WARNING: #fcd34d;
-  --COLOR-WARNING-DARK: #fbbf24;
-  --COLOR-WARNING-TEXT: #b45309;
-  --COLOR-SUCCESS: #16a34a;
-  --COLOR-SUCCESS-DARK: #15803d;
+  /* ---SEMANTIC COLORS--- */
+  --COLOR_SEMANTIC_ERROR: #ef4444;
+  --COLOR_SEMANTIC_ERROR-DARK: #dc2626;
+
+  --COLOR_SEMANTIC_WARNING: #fcd34d;
+  --COLOR_SEMANTIC_WARNING-DARK: #fbbf24;
+  --COLOR_SEMANTIC_WARNING-TEXT: #b45309;
+
+  --COLOR_SEMANTIC_SUCCESS: #16a34a;
+  --COLOR_SEMANTIC_SUCCESS-DARK: #15803d;
 }
 
 html,
 body {
-  background-color: var(--COLOR-BACKGROUND-ONE);
+  background-color: var(--COLOR_BACKGROUND_ALPHA);
   font-family: 'Inter', sans-serif;
   color: var(--COLOR-TEXT-ONE);
 }
@@ -43,7 +48,7 @@ body {
 /* ---ELEMENTS--- */
 a {
   text-decoration: none;
-  color: var(--COLOR-PRIMARY);
+  color: var(--COLOR_BRAND_ALPHA);
 }
 
 button {
@@ -65,7 +70,7 @@ pre {
   color: var(--COLOR-TEXT-TWO);
   padding: 2px 4px;
   border-radius: 4px;
-  background-color: var(--COLOR-PRIMARY-LIGHT);
+  background-color: var(--COLOR_BRAND_ALPHA_LIGHT);
 }
 
 ul {

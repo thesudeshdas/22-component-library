@@ -6,109 +6,109 @@
 }
 
 .button:hover {
-  background-color: var(--COLOR-SECONDARY-ONE-LIGHT);
+  background-color: var(--COLOR_NEUTRAL_ALPHA_DARK);
 }
 
 .button-primary {
-  background-color: var(--COLOR-PRIMARY);
-  border-color: var(--COLOR-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA);
+  border-color: var(--COLOR_BRAND_ALPHA);
   color: var(--COLOR-TEXT-TWO);
 }
 
 .button-primary:hover {
-  background-color: var(--COLOR-HOVER-PRIMARY);
-  border-color: var(--COLOR-HOVER-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA_DARK);
+  border-color: var(--COLOR_BRAND_ALPHA_DARK);
 }
 
 .button-secondary {
-  background-color: var(--COLOR-SECONDARY-TWO);
-  border-color: var(--COLOR-SECONDARY-TWO-DARK);
+  background-color: var(--COLOR_NEUTRAL_BETA);
+  border-color: var(--COLOR_NEUTRAL_BETA_DARK);
 }
 
 .button-secondary:hover {
-  background-color: var(--COLOR-SECONDARY-TWO-DARK);
+  background-color: var(--COLOR_NEUTRAL_BETA_DARK);
 }
 
 .button-danger {
-  background-color: var(--COLOR-DANGER);
-  border-color: var(--COLOR-DANGER);
+  background-color: var(--COLOR_SEMANTIC_ERROR);
+  border-color: var(--COLOR_SEMANTIC_ERROR);
   color: var(--COLOR-TEXT-TWO);
 }
 
 .button-danger:hover {
-  background-color: var(--COLOR-DANGER-DARK);
-  border-color: var(--COLOR-DANGER-DARK);
+  background-color: var(--COLOR_SEMANTIC_ERROR-DARK);
+  border-color: var(--COLOR_SEMANTIC_ERROR-DARK);
 }
 
 .button-success {
-  background-color: var(--COLOR-SUCCESS);
-  border-color: var(--COLOR-SUCCESS);
+  background-color: var(--COLOR_SEMANTIC_SUCCESS);
+  border-color: var(--COLOR_SEMANTIC_SUCCESS);
   color: var(--COLOR-TEXT-TWO);
 }
 
 .button-success:hover {
-  background-color: var(--COLOR-SUCCESS-DARK);
-  border-color: var(--COLOR-SUCCESS-DARK);
+  background-color: var(--COLOR_SEMANTIC_SUCCESS-DARK);
+  border-color: var(--COLOR_SEMANTIC_SUCCESS-DARK);
 }
 
 .button-warning {
-  background-color: var(--COLOR-WARNING);
-  border-color: var(--COLOR-WARNING);
+  background-color: var(--COLOR_SEMANTIC_WARNING);
+  border-color: var(--COLOR_SEMANTIC_WARNING);
 }
 
 .button-warning:hover {
-  background-color: var(--COLOR-WARNING-DARK);
-  border-color: var(--COLOR-WARNING-DARK);
+  background-color: var(--COLOR_SEMANTIC_WARNING-DARK);
+  border-color: var(--COLOR_SEMANTIC_WARNING-DARK);
 }
 
 /* ---OUTLINE BUTTON--- */
 .button-outline-primary {
-  border-color: var(--COLOR-PRIMARY);
-  color: var(--COLOR-PRIMARY);
+  border-color: var(--COLOR_BRAND_ALPHA);
+  color: var(--COLOR_BRAND_ALPHA);
 }
 
 .button-outline-primary:hover {
-  background-color: var(--COLOR-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA);
   color: var(--COLOR-TEXT-TWO);
 }
 
 .button-outline-secondary {
-  border-color: var(--COLOR-SECONDARY-TWO-DARK);
-  color: var(--COLOR-PRIMARY);
+  border-color: var(--COLOR_NEUTRAL_BETA_DARK);
+  color: var(--COLOR_BRAND_ALPHA);
 }
 
 .button-outline-secondary:hover {
-  background-color: var(--COLOR-SECONDARY-TWO-DARK);
+  background-color: var(--COLOR_NEUTRAL_BETA_DARK);
   color: var(--COLOR-TEXT-ONE);
 }
 
 .button-outline-success {
-  border-color: var(--COLOR-SUCCESS);
-  color: var(--COLOR-SUCCESS);
+  border-color: var(--COLOR_SEMANTIC_SUCCESS);
+  color: var(--COLOR_SEMANTIC_SUCCESS);
 }
 
 .button-outline-success:hover {
-  background-color: var(--COLOR-SUCCESS);
+  background-color: var(--COLOR_SEMANTIC_SUCCESS);
   color: var(--COLOR-TEXT-TWO);
 }
 
 .button-outline-warning {
-  border-color: var(--COLOR-WARNING);
-  color: var(--COLOR-WARNING-TEXT);
+  border-color: var(--COLOR_SEMANTIC_WARNING);
+  color: var(--COLOR_SEMANTIC_WARNING-TEXT);
 }
 
 .button-outline-warning:hover {
-  background-color: var(--COLOR-WARNING);
+  background-color: var(--COLOR_SEMANTIC_WARNING);
   color: var(--COLOR-TEXT-ONE);
 }
 
 .button-outline-danger {
-  border-color: var(--COLOR-DANGER);
-  color: var(--COLOR-DANGER);
+  border-color: var(--COLOR_SEMANTIC_ERROR);
+  color: var(--COLOR_SEMANTIC_ERROR);
 }
 
 .button-outline-danger:hover {
-  background-color: var(--COLOR-DANGER);
+  background-color: var(--COLOR_SEMANTIC_ERROR);
   color: var(--COLOR-TEXT-TWO);
 }
 
@@ -119,12 +119,12 @@
 }
 
 .button-icon:hover {
-  color: var(--COLOR-PRIMARY);
+  color: var(--COLOR_BRAND_ALPHA);
 }
 
 /* ---LINK BUTTON--- */
 .button-link {
-  color: var(--COLOR-PRIMARY);
+  color: var(--COLOR_BRAND_ALPHA);
   padding: 0;
 }
 
@@ -137,7 +137,7 @@
   height: 2em;
   width: 2em;
   border-radius: 50%;
-  background-color: var(--COLOR-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA);
   border: none;
   color: var(--COLOR-TEXT-TWO);
   padding: 0;
@@ -147,5 +147,5 @@
 }
 
 .button-floating-action:hover {
-  background-color: var(--COLOR-HOVER-PRIMARY);
+  background-color: var(--COLOR_BRAND_ALPHA_DARK);
 }
