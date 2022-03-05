@@ -1,3 +1,40 @@
 @import url('./styles/reset.css');
 @import url('./styles/utilities.css');
 @import url('./styles/components.css');
+
+/* ---APP SPECIFIC--- */
+.page {
+  padding: 1rem 1.5rem;
+  overflow-y: scroll;
+  grid-area: main;
+}
+
+.component__heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.component__subheading {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.component__container {
+  display: flex;
+  background-color: var(--COLOR_NEUTRAL_ALPHA);
+  border: 2px solid var(--COLOR_NEUTRAL_ALPHA_DARK);
+  border-radius: 8px;
+}
+
+.component__container--row {
+  flex-flow: row wrap;
+}
+
+.component__container--column {
+  flex-flow: column wrap;
+}
+
+.component__container > * {
+  margin: 4px;
+}

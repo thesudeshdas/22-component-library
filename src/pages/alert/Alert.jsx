@@ -21,7 +21,7 @@ export default function Alert() {
         <pre>alert-danger</pre> will give the danger alert
       </p>
 
-      <section className='component__container component__container--alert margin-vertical-lg padding-md'>
+      <section className='component__container component__container--column margin-vertical-lg padding-md'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
         </div>
@@ -57,7 +57,7 @@ export default function Alert() {
         <pre>alert-outline--danger</pre> will give the danger outline alert
       </p>
 
-      <section className='component__container component__container--alert margin-vertical-lg padding-md'>
+      <section className='component__container component__container--column margin-vertical-lg padding-md'>
         <div className='alert alert-outline--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
         </div>
@@ -95,7 +95,7 @@ export default function Alert() {
         which can be found in the code snippet below.
       </p>
 
-      <section className='component__container component__container--alert margin-vertical-lg padding-md'>
+      <section className='component__container component__container--column margin-vertical-lg padding-md'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
           <button className='alert-close font-size-xl'>

@@ -27,7 +27,7 @@ export default function Button() {
         the danger button
       </p>
 
-      <section className='component__container component__container--button margin-vertical-lg padding-md'>
+      <section className='component__container component__container--row flex-justify-center margin-vertical-lg padding-md'>
         <button className='button'>DEFAULT</button>
         <button className='button button-primary'>PRIMARY</button>
         <button className='button button-secondary'>SECONDARY</button>
@@ -45,7 +45,7 @@ export default function Button() {
         will give the danger outline button.
       </p>
 
-      <section className='component__container component__container--button margin-vertical-lg padding-md'>
+      <section className='component__container component__container--row flex-justify-center margin-vertical-lg padding-md'>
         <button className='button'>DEFAULT</button>
         <button className='button button-outline-primary'>PRIMARY</button>
         <button className='button button-outline-secondary'>SECONDARY</button>
@@ -64,7 +64,7 @@ export default function Button() {
         <pre>font</pre> utility class for sizing the icon button.
       </p>
 
-      <section className='component__container component__container--button margin-vertical-lg padding-md'>
+      <section className='component__container component__container--row flex-justify-center margin-vertical-lg padding-md'>
         <button className='button-icon font-size-xl'>
           <IcRoundDelete />
         </button>
@@ -82,11 +82,11 @@ export default function Button() {
         place. Use the <pre>button-link</pre> class to create a link button.
       </p>
 
-      <section className='component__container component__container--button margin-vertical-lg padding-md'>
+      <section className='component__container component__container--row flex-justify-center margin-vertical-lg padding-md'>
         <p>
           Dash UI makes building your apps simpler. If you like my work, feel
           free to reach out to me on{' '}
-          <button className='button-link font-m'>
+          <button className='button-link font-size-md'>
             <a
               href='https://twitter.com/thesudeshdas'
               target='_blank'
@@ -108,7 +108,7 @@ export default function Button() {
         <pre>button-link</pre> class to create a link button.
       </p>
 
-      <section className='component__container component__container--button margin-vertical-lg padding-md'>
+      <section className='component__container component__container--row flex-justify-center margin-vertical-lg padding-md'>
         <button className='button button-floating-action font-size-lg'>
           <IcRoundShoppingCart />
         </button>
