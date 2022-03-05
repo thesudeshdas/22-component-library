@@ -15,7 +15,7 @@
 
 .alert--success {
   background-color: var(--COLOR_SEMANTIC_SUCCESS);
-  color: var(--COLOR-TEXT-ONE);
+  color: var(--COLOR-TEXT-TWO);
 }
 
 .alert--warning {

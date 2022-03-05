@@ -98,26 +98,26 @@ export default function Alert() {
       <section className='component__container component__container--alert margin-vertical-lg padding-md'>
         <div className='alert alert--primary flex-horizontal flex-align-center'>
           <strong>Primary!</strong> This is a primary alert. Check it out!
-          <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-size-lg' />
+          <button className='alert-close font-size-xl'>
+            <IcRoundClose />
           </button>
         </div>
         <div className='alert alert--success flex-horizontal flex-align-center'>
           <strong>Success!</strong> This is a success alert. Check it out!
-          <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-size-lg' />
+          <button className='alert-close font-size-xl'>
+            <IcRoundClose />
           </button>
         </div>
         <div className='alert alert--warning flex-horizontal flex-align-center'>
           <strong>Warning!</strong> This is a warning alert. Check it out!
-          <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-size-lg' />
+          <button className='alert-close font-size-xl'>
+            <IcRoundClose />
           </button>
         </div>
         <div className='alert alert--danger flex-horizontal flex-align-center'>
           <strong>Danger!</strong> This is a danger alert. Check it out!
-          <button className='button button-icon alert-close flex-center'>
-            <IcRoundClose className='font-size-lg' />
+          <button className='alert-close font-size-xl'>
+            <IcRoundClose />
           </button>
         </div>
       </section>
