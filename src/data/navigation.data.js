@@ -49,6 +49,11 @@ export const navigationData = [
         subCategory: 'Button',
         link: '/components/button',
       },
+      {
+        id: 'subcat009',
+        subCategory: 'Image',
+        link: '/components/image',
+      },
     ],
   },
   {
