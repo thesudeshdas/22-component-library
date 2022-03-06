@@ -1,0 +1,43 @@
+/* ---IMAGE AVATAR--- */
+.avatar-image {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ---TEXT AVATAR--- */
+.avatar-text {
+  display: grid;
+  border-radius: 50%;
+  background-color: var(--COLOR_NEUTRAL_BETA_DARK);
+  text-overflow: ellipsis;
+  place-items: center;
+}
+
+.avatar-text > p {
+  max-width: 2ch;
+  overflow: hidden;
+  text-overflow: clip;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+/* ---AVATAR SIZING--- */
+.avatar-large {
+  width: 2.5em;
+  height: 2.5em;
+  /* TODO - Use clamp when implmenting responsiveness for height & width */
+  font-size: 2.5em;
+}
+
+.avatar-medium {
+  width: 2em;
+  height: 2em;
+  font-size: 1.75em;
+}
+
+.avatar-small {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1em;
+}
