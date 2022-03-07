@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+
 export default function Avatar() {
+  useEffect(() => {
+    document.title = 'Dash UI | Avatar';
+  }, []);
+
   return (
     <main className='page'>
       <h1 className='component__heading'>Avatar</h1>
