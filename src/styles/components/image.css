@@ -1,0 +1,9 @@
+/* ---RESPONSIVE IMAGE--- */
+.image {
+  max-width: 100%;
+}
+
+/* ---ROUND IMAGE--- */
+.image-round {
+  border-radius: 50%;
+}
