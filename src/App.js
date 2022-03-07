@@ -22,7 +22,10 @@ function App() {
           <Route path='alert' element={<Alert />} />
           <Route path='button' element={<Button />} />
           <Route path='avatar' element={<Avatar />} />
+<<<<<<< HEAD
           <Route path='image' element={<Image />} />
+=======
+>>>>>>> dev
         </Route>
       </Routes>
     </div>
