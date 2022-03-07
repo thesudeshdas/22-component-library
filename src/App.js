@@ -1,6 +1,14 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { Alert, Avatar, Button, Components, Docs, Installation } from './pages';
+import {
+  Alert,
+  Avatar,
+  Button,
+  Components,
+  Docs,
+  Image,
+  Installation,
+} from './pages';
 
 function App() {
   return (
@@ -14,6 +22,10 @@ function App() {
           <Route path='alert' element={<Alert />} />
           <Route path='button' element={<Button />} />
           <Route path='avatar' element={<Avatar />} />
+<<<<<<< HEAD
+          <Route path='image' element={<Image />} />
+=======
+>>>>>>> dev
         </Route>
       </Routes>
     </div>
